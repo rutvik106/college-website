@@ -1,6 +1,6 @@
 
 .menu-container {
-    padding-left: 15%;
+    padding-left: 14%;
 }
 
 nav {
@@ -186,7 +186,24 @@ nav {
     border-top: 1px solid red;
 }
 
+@media screen and (max-width: 1300px) {
+    .menu-container {
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .menu-container {
+        padding-left: 8%;
+    }
+}
+
 @media screen and (max-width: 1000px) {
+
+
+    .menu-container {
+        padding-left: 20%;
+    }
 
     .menu-container {
         padding-left: 0;
