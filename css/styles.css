@@ -44,24 +44,27 @@ body {
 
 }
 
+.news-container {
+    position: relative;
+    width: 100%;
+    border: 2px solid #1E88E5;
+    color: #1E88E5;
+    border-radius: 7px 7px 7px 7px;
+    margin-bottom: 10px;
+}
+
 .grey-box {
-    float: left;
-    border-radius: 5px 0 0 5px;
-    align-content: center;
-    text-align: center;
-    height: 20%;
-    width: 100px;
+    padding: 10px;
+    border-radius: 5px 0 0 0;
     background-color: #1E88E5;
+    color: white;
 }
 
 .event-row {
-    color: white;
-    float: right;
-    width: 100%;
-    height: 20%;
-    border: 2px solid #1E88E5;
-    border-radius: 7px 7px 7px 7px;
-    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    color: #1E88E5;
 }
 
 #top-of-head {
