@@ -168,6 +168,27 @@ body {
     padding: 10px;
 }
 
+.team-member {
+    margin-top: 15px;
+    background: #1E88E5;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 15px;
+    border: 1px solid #1E88E5;
+}
+
+.team-member .member-name {
+    font-weight: bold;
+}
+
+.team-member .thumnail img {
+    width: 100%;
+}
+
+.team-member .member-position {
+    padding: 0 15px 5px;
+}
+
 
 
 
